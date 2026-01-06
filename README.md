@@ -9,8 +9,6 @@
 - **Cucumber 6.8.1** - Framework BDD para testes
 - **Selenium WebDriver 3.141.59** - Automação de navegadores
 - **JUnit 4.12** - Framework de testes
-- **WebDriverManager 4.4.3** - Gerenciamento automático de drivers
-- **ExtentReports 3.1.5** - Relatórios de testes
 
 ## 📁 Estrutura do Projeto
 
