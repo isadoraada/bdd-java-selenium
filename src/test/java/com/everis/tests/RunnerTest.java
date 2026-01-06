@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 import com.everis.util.Hooks;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "classpath:features", tags = "@test", glue = {""}, 
+@CucumberOptions(features = "classpath:features", tags = "@test", glue = {"com.everis.steps"}, 
 	monochrome = true, dryRun = false, plugin = { "json:target/cucumber.json", "rerun:target/rerun.txt" })
 public class RunnerTest {
 

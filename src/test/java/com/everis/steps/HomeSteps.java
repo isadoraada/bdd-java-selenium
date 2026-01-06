@@ -8,12 +8,12 @@ import io.cucumber.java.pt.E;
 
 public class HomeSteps {
 
-	@Dado("^que um usuario acessa o site \"(.*)\"$")
+	@Dado("que um usuario acessa o site {string}")
 	public void acessarSite(String url) {
 		Hooks.navigateToULRChrome(url);
 	}
 	
-	@E("^pesquisa pelo produto \"(.*)\"$")
+	@E("pesquisa pelo produto {string}")
 	public void pesquisarProduto(String nomeProduto) {
 		HomePage homePage = new HomePage();
 		homePage.pesquisarProduto(nomeProduto);
